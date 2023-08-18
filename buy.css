@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  /* overflow: hidden; */
+  width: 100%;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.header h1 {
+  margin-top: 30px;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  color: white;
+  margin: 30px 0px 0px 200px;
+}
+.address {
+  width: 800px;
+  /* background-color: aqua; */
+  border: 2px solid red;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  overflow: hidden;
+  border-radius: 20px;
+
+
+}
+.finish1{
+  position: absolute;
+  top: 9%;
+  left: 65%;
+  padding: 20px;
+  display: flex;
+  z-index: 9;
+  flex-direction: column;
+  height: 350px;
+  border: 2px solid red;
+  border-radius: 20px;
+  width: 400px;
+  margin: 50px 30px 30px 30px;
+  text-align: center;
+}
+.finish1 button{
+  height: 40px;
+  background-color: red;
+  color: aliceblue;
+  border: 2px solid red;
+  border-radius: 10px;
+  
+}
+.finish2{
+  position: absolute;
+  top: 9%;
+  left: 65%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  border: 2px solid red;
+  border-radius: 20px;
+  width: 400px;
+  margin: 50px 30px 30px 30px;
+  text-align: center;
+}
+.finish2 button{
+  height: 40px;
+  background-color: red;
+  color: aliceblue;
+  border: 2px solid red;
+  border-radius: 10px;
+  
+}
+#your{
+  color: aliceblue;
+  margin: 10px 30px;
+  font-size: 20px;
+  padding-top: 15px;
+}
+#add{
+  color: aliceblue;
+  margin: 10px 30px;
+  font-size: 17px;
+  font-weight: lighter;
+  border: 2px solid red;
+  background-color: rgba(255, 0, 0, 0.166);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#add:hover{
+  background-color: red;
+}
+.hr1{
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  border: 1px solid red;
+}
+.hr2{
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  border: 1px solid red;
+}
+.input{
+  margin-top: 17px;
+  margin-left: 30px;
+
+}
+
+label{
+  text-align: left;
+  color: aliceblue;
+}
+.selected{
+  background-color: rgb(40, 40, 40);
+}
+.left
+{
+
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.feed-div{
+  display: flex;
+  flex-direction: row;
+}
+.feed2-div{
+  display: flex;
+  flex-direction: row;
+}
+.new
+{
+  line-height: 35px;
+  padding: 30px;
+  /* opacity:0; */
+  z-index: -5;
+  position: absolute;
+  top: 10%;
+  left: 31%;
+  height: 660px;
+  width: 600px;
+  backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(18, 18, 18, 0.75);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 0, 0, 0.125);
+  box-shadow: 0 0 10px red;
+
+}
+#feed3{
+  height: 0px;
+  overflow: hidden;
+}
+.new h1{
+  color: aliceblue;
+}
+.new h3{
+  color: aliceblue;
+  width: 400px;
+}
+.new input{
+  height: 40px;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+}
+#save{
+  margin-left: 70px;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 10px;
+  border: 2px solid red;
+}
+#save:hover{
+  background-color: red;
+  cursor: pointer;
+}
+#back:hover{
+  background-color: red;
+  cursor: pointer;
+}
+#back{
+  margin-left: 10px;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 30px;
+  border: 2px solid red;
+}
+.summary{
+  color: aliceblue;
+  text-align: left;
+  margin-left: 15px;
+}

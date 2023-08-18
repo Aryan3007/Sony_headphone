@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="buy.css" />
+  </head>
+  <body>
+
+    <h1 class="logo">SONY</h1>
+    <div class="header">
+      <h1>Checkout</h1>
+
+    </div>
+
+
+
+
+    <div style="display: flex; flex-direction: row">
+      <div id="addiv" class="address">
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          "
+        >
+          <h1 id="your">Your saved addresses</h1>
+          <h3 id="add">Add address</h3>
+        </div>
+        <hr class="hr1" />
+        <div id="feed"></div>
+      </div>
+    </div>
+
+
+
+
+
+    <div style="display: flex; flex-direction: row">
+      <div id="paye" class="address">
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          "
+        >
+          <h1 id="your">Select a payment method</h1>
+        </div>
+        <hr class="hr1" />
+        <h3 style="color: aliceblue; margin-left: 30px;">UPI payments</h3>
+        <div id="feed2">
+        </div>
+        <div style="margin-top: 50px;">
+          <h2 style="color: aliceblue; margin-left: 30px;">Other options</h2>
+          <input value="first method" class="input" type="radio">
+          <label style="color: aliceblue; margin: 30px 30px 30px 15px; ">
+            Cash on Delivery / Pay on Delivery</label>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    
+    <div style="display: flex; flex-direction: row">
+      <div class="address">
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          "
+        >
+          <h1 id="your">
+            Items and delivery</h1>
+        </div>
+        <hr class="hr1" />
+        <div id="feed3">
+          <i><h3 style="margin: 30px; color: rgb(255, 1, 1);">THANKYOU FOR BUYING</h3></i>
+          <i><h3 style="margin: 30px; color: rgb(255, 1, 1);">YOUR PRODUCT IS REACHING YOU SOON</h3></i>
+          <p style="margin: 30px; color: aliceblue; font-size: 12px;">When your order is placed, we'll send you an e-mail message acknowledging receipt of your order. If you choose to pay using an electronic payment method (credit card, debit card or net banking), you will be directed to your bank's website to complete your payment. Your contract to purchase an item will not be complete until we receive your electronic payment and dispatch your item. If you choose to pay using Pay on Delivery (POD), you can pay using cash/card/net banking when you receive your item.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="finish1">
+      <button id="useaddbtn">use this address</button>
+      <hr class="hr2" />
+      <div>
+        <p style="color: aliceblue; font-size: 15px; padding: 0px 15px">
+          Choose an address to continue checking out. You will still have a
+          chance to review and edit your order before it is final.
+        </p>
+      </div>
+      <hr class="hr2" />
+      <h2 class="summary">Order Summary</h2>
+      <p style="color: aliceblue; text-align: left; margin: 10px 15px">
+        No. of items: 1
+      </p>
+      <p style="color: aliceblue; text-align: left; margin: 10px 15px">
+        price: ₹11,999
+      </p>
+      <hr class="hr2" />
+      <h2 class="summary">Order Total: ₹11,999</h2>
+    </div>
+
+
+
+
+    <div class="finish2">
+      <button id="usepayment">use this payment method</button>
+      <hr class="hr2" />
+      <div>
+        <p style="color: aliceblue; font-size: 15px; padding: 0px 15px">
+          Choose an address to continue checking out. You will still have a
+          chance to review and edit your order before it is final.
+        </p>
+      </div>
+      <hr class="hr2" />
+      <h2 class="summary">Order Summary</h2>
+      <p style="color: aliceblue; text-align: left; margin: 10px 15px">
+        No. of items: 1
+      </p>
+      <p style="color: aliceblue; text-align: left; margin: 10px 15px">
+        price: ₹11,999
+      </p>
+      <hr class="hr2" />
+      <h2 class="summary">Order Total: ₹11,999</h2>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="new">
+      <div class="upper" style="display: flex; flex-direction: row">
+        <h3>Enter a new delivery address</h3>
+        <p id="save">save</p>
+        <p id="back">back</p>
+      </div>
+      <h1>Add a new address</h1>
+      <div style="display: flex; flex-direction: column">
+        <label for="name">Country/Region</label>
+        <input id="country" type="text" value="" placeholder="enter country" />
+        <label for="name">Full name (First and Last name)</label>
+        <input id="names" type="text" value="" placeholder="enter your name" />
+        <label for="name">Mobile number</label>
+        <input id="mobile" type="text" value="" placeholder="mobile number" />
+        <label for="name">Pincode</label>
+        <input id="pincode" type="text" value="" placeholder="pincode" />
+        <label for="name">Flat, House no., Building, Company, Apartment</label>
+        <input
+          id="addressbar"
+          type="text"
+          value=""
+          placeholder="full address"
+        />
+        <label for="name">Town/City</label>
+        <input id="city" type="text" value="" placeholder="city" />
+        <label for="name">State</label>
+        <input id="state" type="text" value="" placeholder="state" />
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="buy.js"></script>
+  </body>
+</html>
